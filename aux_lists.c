@@ -22,7 +22,7 @@ sep_list *add_sep_node_end(sep_list **head, char sep)
 
 	if (temp == NULL)
 	{
-		*head = new
+		*head = new;
 	}
 	else
 	{
