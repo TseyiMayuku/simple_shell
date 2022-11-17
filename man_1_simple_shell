@@ -4,13 +4,13 @@ Manpage for simple shell
 .TH TBSH 1 "November 2022" "Alx School" "TB SHELL - Simple Shell man page"
 
 .SH NAME
-tbsh\fR \- simple UNIX command interpreter
+tbsh\fR \- simple UNIX command interpreter.
 
 .SH SYNOPSIS
 tb\fR [\fIfilename\fR]
 
 .SH COPYRIGHT
-Tb is Copyright (C) 2022 by Oritsetseyigbemi Mayuku and Bismark Amuna
+Tb is Copyright (C) 2022 by Oritsetseyigbemi Mayuku and Bismark Amuna.
 
 .SH DESCRIPTION
 Tb\fR is a sh-compatible command language interpreter that executes commands read from the standard input or from a file.
