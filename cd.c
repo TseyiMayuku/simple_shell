@@ -104,7 +104,7 @@ void cd_previous(data_shell *datash)
 	p_oldpwd = _getenv("OLDPWD", datash->_environ);
 
 	if (p_oldpwd == NULL)
-		cp_oldpwd = cp_pwd; 
+		cp_oldpwd = cp_pwd;
 	else
 		cp_oldpwd = _strdup(p_oldpwd);
 

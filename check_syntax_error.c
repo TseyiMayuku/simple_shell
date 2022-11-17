@@ -98,6 +98,7 @@ int first_char(char *input, int *i)
  * @datash: data structure
  * @input: input string
  * @i: index of the error
+ * @bool: to control msg error
  * Return: no return
  */
 
