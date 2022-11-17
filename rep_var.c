@@ -117,13 +117,13 @@ char *replaced_input(r_var **head, char *input, char *new_input, int nlen)
 			{
 				for (k = 0; k < indx->len_val; k++)
 				{
-					 new_input[i] = indx->val[k];
-					 i++;
+					new_input[i] = indx->val[k];
+					i++;
 				}
 				j += (indx->len_var);
 				i--;
 			}
-			 indx = indx->next;
+			indx = indx->next;
 		}
 		else
 		{
