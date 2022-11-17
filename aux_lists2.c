@@ -56,7 +56,7 @@ void free_rvar_list(r_var **head)
 		while ((temp = curr) != NULL)
 		{
 			curr = curr->next;
-			free(temp);	
+			free(temp);
 		}
 		*head = NULL;
 	}
